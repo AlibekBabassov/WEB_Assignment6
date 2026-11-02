@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="profile" class="profile">
+        <h1 id="welcome">Welcome to My Portfolio</h1>
+        <h2 id="headline" class="headline">Hi, I'm Alibek Babassov</h2>
+        <p class="intro">I am a student learning web development.</p>
+
+        <div class="buttons">
+            <button id="changeHeadline">Change Headline</button>
+            <button id="highlightIntro">Style Intro</button>
+            <button id="lightTheme">Light Theme</button>
+            <button id="darkTheme">Dark Theme</button>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p class="bio">I am a student at Astana IT University. I enjoy programming, solving problems and learning how
+            websites work.</p>
+
+        <p id="status" class="status">Currently learning jQuery!</p>
+
+        <ul id="funFacts">
+            <li>I love building small web projects.</li>
+            <li>My goal is to become a full-stack developer.</li>
+            <li>I use a MacBook for my studies.</li>
+        </ul>
+
+        <div class="buttons">
+            <button id="hideBtn">Hide</button>
+            <button id="showBtn">Show</button>
+            <button id="toggleBtn">Toggle</button>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <h2>Gallery</h2>
+        <div class="images">
+            <img id="img1" src="images/gojo-satoru-dumb.gif" alt="Photo 1" width="200">
+            <img id="img2" src="images/images-11.jpeg" alt="Photo 2" width="200">
+        </div>
+        <div class="buttons">
+            <button id="fadeOutBtn">Fade Out</button>
+            <button id="fadeInBtn">Fade In</button>
+            <button id="fadeToggleBtn">Fade Toggle</button>
+        </div>
+    </section>
+
+    <section id="favorites" class="section">
+        <h2>My Favorites</h2>
+
+        <h3 class="panelHeading">My Favorite Music</h3>
+        <div class="panel">
+            <p>Shape of you</p>
+        </div>
+
+        <h3 class="panelHeading">My Favorite Movie</h3>
+        <div class="panel">
+            <p>Harry Potter</p>
+        </div>
+
+        <h3 class="panelHeading">My Favorite Subject</h3>
+        <div class="panel">
+            <p>WEB</p>
+        </div>
+
+        <div class="buttons">
+            <button id="openAll">Open All</button>
+            <button id="closeAll">Close All</button>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>My Skills</h2>
+
+        <ul id="skillList">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+        </ul>
+
+        <input type="text" id="skillInput" placeholder="Enter a skill">
+
+        <div class="buttons">
+            <button id="addSkill">Add Skill</button>
+            <button id="prependSkill">Prepend Skill</button>
+            <button id="removeSkill">Remove Skill</button>
+        </div>
+
+        <p id="skillMessage"></p>
+        <h3>Skill Levels</h3>
+
+        <p>HTML</p>
+        <div class="barBox">
+            <div class="bar" data-level="90%"></div>
+        </div>
+
+        <p>CSS</p>
+        <div class="barBox">
+            <div class="bar" data-level="80%"></div>
+        </div>
+
+        <p>JavaScript</p>
+        <div class="barBox">
+            <div class="bar" data-level="65%"></div>
+        </div>
+
+        <p>jQuery</p>
+        <div class="barBox">
+            <div class="bar" data-level="50%"></div>
+        </div>
+
+        <div class="buttons">
+            <button id="animateSkills">Animate My Skills</button>
+        </div>
+    </section>
+
+    <section id="social" class="section">
+        <h2>My Links</h2>
+
+        <p><a id="socialLink" href="https://github.com/AlibekBabassov" target="_blank">My GitHub</a></p>
+
+        <div class="buttons">
+            <button id="changeLink">Change Link</button>
+        </div>
+    </section>
+
+    <section id="formSection" class="section">
+        <h2>Contact Form</h2>
+
+        <form id="liveForm">
+            <input type="text" id="nameInput" placeholder="Your name">
+            <input type="text" id="emailInput" placeholder="Your email">
+        </form>
+
+        <p>Name: <span id="nameOutput"></span></p>
+        <p>Email: <span id="emailOutput"></span></p>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

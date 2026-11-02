@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.profile {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.section {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  border: 1px solid #e4e2e2;
+  border-radius: 8px;
+}
+
+.status {
+  font-weight: bold;
+  color: #2061e4;
+}
+
+.images img{
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.panelHeading{
+  cursor: pointer;
+  background-color: #ece9e9;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.panel{
+  display: none;
+  padding: 10px;
+}
+
+#skillInput{
+  padding: 8px;
+  margin: 5px;
+}
+
+#skillMessage{
+  color: red;
+}
+
+#liveForm input{
+  padding: 8px;
+  margin: 5px;
+}
+
+.barBox{
+  background-color: #e7e4e4;
+  border-radius: 6px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.bar{
+  background-color: #1757d6;
+  border-radius: 6px;
+  height: 20px;
+  width: 0;
+}
